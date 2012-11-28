@@ -1,0 +1,27 @@
+html { padding: 0; margin: 0; }
+
+.hlavicka {height: 60px;}
+
+.container { width: 100%; display: block; position: relative; clear: both; }
+
+#container .column { width: 980px; margin: 0 auto; position: relative; }
+
+#center {padding: 10px 20px;}
+
+
+/*** oprava pro IE ***/
+* html #left {left: 150px;}
+
+#container {overflow: hidden;}
+
+
+
+/*** Vzhled ***/
+body {margin: 0; padding: 0; background: #D1F0FF;}
+
+.hlavicka {font-size: large; text-align: center; padding: 0.3em 0; background: #0D77AC;}
+.hlavicka p {color: #FFF; font-size: 24px; font-weight: bold;}
+
+#center {background: #D1F0FF;}
+
+#container .column {padding-top: 1em; text-align: justify;}

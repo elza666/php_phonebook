@@ -1,0 +1,227 @@
+
+* { margin: 0; padding: 0; }
+
+html { height: 100%; font-size: 62.5% }
+
+body {
+height: 100%;
+background: #FFFFFF url('../img/hd-bg.gif') repeat-x 0 0;
+text-align: center;
+font: 1.2em Verdana, Arial, Helvetica, sans-serif;
+min-width: 960px;
+}
+
+a:link, a:visited {
+color: #005890;
+text-decoration: underline;
+font-weight: bolder;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.noscreen {
+display: none;
+}
+
+/* Cleaner */
+
+.cleaner {
+clear: both;
+height: 0;
+font-size: 0;
+visibility: hidden;
+}
+
+.cleaning-box { 
+min-height: 1px;
+}
+
+.cleaning-box:after {
+display: block; 
+clear: both; 
+visibility: hidden; 
+height: 0; 
+font-size: 0; 
+content: ' ';
+}
+
+/* Wrapper */
+
+#wrapper {
+margin: 0 auto;
+}
+
+
+/* Headings, paragraphs */
+
+h1 {
+font: 2.7em Georgia, "Times New Roman", Times, serif;
+color: #FFFFFF;
+padding: 20px 0 4px 0;
+margin: 0 0 0 4px;
+border-bottom: 1px solid #4699C4;
+}
+
+h1 a:link, h1 a:visited {
+text-decoration: none;
+color: #FFFFFF;
+font-weight: normal;
+}
+
+h2 {
+font-size: 1.9em;
+font-weight: normal;
+color: #538700;
+margin-bottom: 3px;
+}
+
+p {
+line-height: 1.8;
+color: #252525;
+margin-bottom: 5px;
+}
+
+ul { list-style: circle; margin: 2px 0 1px 50px; }
+
+ul li { margin-bottom: 10px; }
+
+
+/* Header */
+
+#header {
+width: 960px;
+height: 120px;
+margin: 0 auto;
+position: relative;
+text-align: left;
+background: #00679C url('../img/hd-bg.gif') repeat-x 0 0;
+}
+
+#header p.title {
+color: white;
+line-height: 1.8;
+position: relative;
+z-index: 2;
+padding: 5px 0 0 0;
+margin: 0 0 0 5px;
+font: 1.3em Georgia, "Times New Roman", Times, serif;
+color: #FFFFFF;
+letter-spacing: 1px;
+}
+
+
+/* Menu */
+
+#menu-box {
+background-color: #EEEEEE;
+border-bottom: 1px solid #B0BCC3;
+}
+
+#menu {
+width: 960px;
+margin: 0 auto;
+list-style: none;
+text-align: left;
+font: 1.2em Georgia, "Times New Roman", Times, serif;
+letter-spacing: 1px;
+}
+
+#menu li {
+display: inline;
+text-align: center;
+line-height: 34px;
+}
+
+#menu li a {
+float: left;
+display: block;
+color: #474747;
+font-weight: normal;
+padding: 0 18px;
+border-right: 1px solid #B0BCC3;
+text-decoration: none;
+}
+
+#menu li a.first {
+border-left: 1px solid #B0BCC3;
+}
+
+#menu li a:hover {
+color: #006BA3;
+}
+
+#menu li a.active {
+background-color: #ADDEFF;
+color: #202020;
+}
+
+
+/* content */
+
+#content {
+width: 960px;
+margin: 0 auto;
+text-align: left;
+background-color: #FFFFFF;
+}
+
+/* Footer */
+
+#footer {
+background-color: #00679C;
+height: 90px;
+border-top: 6px solid #003E72;
+}
+
+#footer-in {
+width: 960px;
+margin: 0 auto;
+font: 1.2em Georgia, "Times New Roman", Times, serif;
+}
+
+#footer-in ul {
+list-style: none;
+padding: 10px 0 0 0;
+text-align: left;
+font-size: 0.9em;
+float: left;
+width: 650px;
+color: #FBFBFB;
+}
+
+#footer-in ul li {
+float: left;
+display: inline;
+white-space: nowrap;
+}
+
+#footer-in ul li a, #footer-in ul li a:visited {
+color: #FBFBFB;
+margin: 0 8px;
+font-weight: normal;
+}
+
+/* ==================== Formular ==================== */
+
+form { margin: 25px 0 0 29px; width: 450px; padding-bottom: 30px; }
+
+fieldset { margin: 0 0 22px 0; border: 1px solid #095D92; padding: 12px 17px; background-color: #DFF3FF; }
+legend { font-size: 1.1em; background-color: #095D92; color: #FFFFFF; font-weight: bold; padding: 4px 8px; }
+
+label.float { float: left; display: block; width: 100px; margin: 4px 0 0 0; clear: left; }
+label { display: block; width: auto; margin: 0 0 10px 0; }
+label.spam-protection { display: inline; width: auto; margin: 0; }
+
+input.inp-text, textarea, input.choose, input.answer { border: 1px solid #909090; padding: 3px; }
+input.inp-text { width: 300px; margin: 0 0 8px 0; }
+textarea { width: 400px; height: 150px; margin: 0 0 12px 0; display: block; }
+
+input.choose { margin: 0 2px 0 0; }
+input.answer { width: 40px; margin: 0 0 0 10px; }
+input.submit-button { font: 1.4em Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; display: block; margin: 23px 0 0 0; }
+
+form br { display: none; }
+
+/* ==================== Formular END ==================== */
