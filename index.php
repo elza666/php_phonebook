@@ -66,6 +66,8 @@ if (count($seznam) > 0) {
 
 ?>
 
+    <p>Zkouska GITu</p>
+
 
     <!-- </div>
     </div> Column 1 end -->
